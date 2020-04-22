@@ -43,3 +43,22 @@ link2.style.color = "white";
 topNav.appendChild(link2);
 
 container.appendChild(header);
+
+const header2 = document.createElement("div");
+header2.style.backgroundColor = "#D3D3D3";
+header2.style.padding = "0 20px";
+
+const heading2 = document.createElement("h2");
+heading2.textContent = "Curse of the Current Reviews";
+header2.appendChild(heading2);
+
+const cont = document.createElement("div");
+cont.textContent =
+  "When you want to buy any application from the Apple iTunes Store you have more choices than you can handle. Most users scroll past the application description completely avoiding it like ads displayed on the right column of your webpage. Their choice is dependent on three important factors price, screenshot, and reviews.";
+header2.appendChild(cont);
+
+container.appendChild(header2);
+
+
+
+
